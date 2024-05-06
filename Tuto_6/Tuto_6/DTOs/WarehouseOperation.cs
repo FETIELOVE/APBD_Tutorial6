@@ -11,7 +11,7 @@ public class WarehouseOperation
     public int Amount { get; set; }
     [Required]
     public DateTime CreatedAt { get; set; }
-    [Required]
     public int Idorder { get; set; }
+    
     
 }
